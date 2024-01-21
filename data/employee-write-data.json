@@ -1,0 +1,315 @@
+[
+    {
+        "EmployeePartyID": "S298091012",
+        "EmployeeSocialSecurityNumber": "XXX-XX-9707",
+        "EmployeeName": {
+            "FirstName": "John",
+            "MiddleName": "",
+            "LastName": "Timber"
+        },
+        "EmployeeGenderCode": "Female",
+        "EmployeeBirthDate": "1985-11-07",
+        "MaritalStatusCode": "Married",
+        "EmployeeTobaccoUseCode": "N",
+        "EmployeeHomePhone": "",
+        "EmployeeWorkPhone": "",
+        "EmployeeMobilePhone": "",
+        "EmployeeMailingAddress": {
+            "FirstLineAddress": "130 Sesame Street ",
+            "SecondLineAddress": "",
+            "CityName": "Houston",
+            "StateProvinceCode": "TX",
+            "PostalCode": "77001-0000",
+            "CountryCode": "US"
+        },
+        "EmployeeEmail": "danny.atchison@plansource.om",
+        "EmployeeAlternateEmail": "",
+        "EmploymentInformation": {
+            "OriginalHireDate": "2020-08-08",
+            "MostRecentHireDate": "2020-08-08",
+            "EmploymentTypeCode": "FullTime",
+            "EmploymentStatusCode": "Active",
+            "TerminationDate": "",
+            "TerminationReasonCode": "",
+            "JobTitleText": "",
+            "WorkLocationText": "",
+            "EmploymentIncome": [
+                {
+                    "IncomeTypeCode": "Salary",
+                    "IncomeAmount": "1000004.00",
+                    "IncomeModeCode": "Annual",
+                    "IncomeEffectiveDate": ""
+                }
+            ],
+            "EmploymentInformationUserDefinedCategory": [],
+            "AnnualBenefitSalaryAmount": "1000004.00"
+        },
+        "Event": [
+            {
+                "EventID": "90251268",
+                "EventTypeCode": "Demographic",
+                "EventTypeReasonCode": "DemographicChange",
+                "EventDate": "2021-11-29"
+            }
+        ],
+        "Dependent": [
+            {
+                "DependentPartyID": "D10719236",
+                "DependentSocialSecurityNumber": "XXX-XX-9909",
+                "DependentName": {
+                    "FirstName": "Student",
+                    "MiddleName": "",
+                    "LastName": "TEST",
+                    "SuffixCode": ""
+                },
+                "DependentRelationshipTypeCode": "Child",
+                "DependentGenderCode": "Male",
+                "DependentBirthDate": "1999-01-01",
+                "DependentMailingAddress": {
+                    "FirstLineAddress": "130 Sesame Street ",
+                    "SecondLineAddress": "",
+                    "CityName": "Houston",
+                    "StateProvinceCode": "TX",
+                    "PostalCode": "77001-0000",
+                    "CountryCode": "US"
+                },
+                "DependentHomeEmail": "",
+                "DisabilityIndicator": false,
+                "StudentStatusCode": "FullTime",
+                "DependentTobaccoUseCode": ""
+            }
+        ],
+        "Coverage": [
+            {
+                "CoverageID": 388889092,
+                "GroupPolicyNumber": "00023146",
+                "ProductTypeCode": "Life",
+                "BenefitPlanIdentifier": "MOL01-0001",
+                "BenefitClassIdentifier": "0008",
+                "BillGroupIdentifier": "0000",
+                "ClaimGroupIdentifier": "",
+                "OriginalCoverageEffectiveDate": "2021-10-01",
+                "CoverageEffectiveDate": "2021-10-01",
+                "CoverageTerminationDate": "",
+                "CoverageTierCode": "Employee",
+                "BenefitAmount": 400000.0,
+                "EmployeePremiumContributionAmount": 8.75,
+                "EmployerPremiumContributionAmount": 0.0,
+                "CarrierID": 22,
+                "CoverageInsured": [
+                    {
+                        "InsuredPartyID": "S298091012",
+                        "PrimaryInsuredIndicator": true,
+                        "InsuredCoverageEffectiveDate": "2021-10-01"
+                    }
+                ],
+                "SignatureDate": "2021-08-12"
+            },
+            {
+                "CoverageID": 388925956,
+                "GroupPolicyNumber": "00023146",
+                "ProductTypeCode": "Dental",
+                "BenefitPlanIdentifier": "DEN04-0007",
+                "BenefitClassIdentifier": "0008",
+                "BillGroupIdentifier": "0000",
+                "ClaimGroupIdentifier": "",
+                "OriginalCoverageEffectiveDate": "2021-10-01",
+                "CoverageEffectiveDate": "2021-11-01",
+                "CoverageTerminationDate": "",
+                "CoverageTierCode": "EmployeeChildren",
+                "BenefitAmount": 0.0,
+                "EmployeePremiumContributionAmount": 26.43,
+                "EmployerPremiumContributionAmount": 0.0,
+                "CarrierID": 22,
+                "CoverageInsured": [
+                    {
+                        "InsuredPartyID": "S298091012",
+                        "PrimaryInsuredIndicator": true,
+                        "InsuredCoverageEffectiveDate": "2021-11-01"
+                    },
+                    {
+                        "InsuredPartyID": "D10719236",
+                        "PrimaryInsuredIndicator": false,
+                        "InsuredCoverageEffectiveDate": "2021-11-01"
+                    }
+                ],
+                "SignatureDate": "2021-11-18"
+            },
+            {
+                "CoverageID": 388928004,
+                "GroupPolicyNumber": "00023146",
+                "ProductTypeCode": "Vision",
+                "BenefitPlanIdentifier": "VIS01-0001",
+                "BenefitClassIdentifier": "0008",
+                "BillGroupIdentifier": "0000",
+                "ClaimGroupIdentifier": "",
+                "OriginalCoverageEffectiveDate": "2021-10-01",
+                "CoverageEffectiveDate": "2021-10-01",
+                "CoverageTerminationDate": "",
+                "CoverageTierCode": "Employee",
+                "BenefitAmount": 0.0,
+                "EmployeePremiumContributionAmount": 3.17,
+                "EmployerPremiumContributionAmount": 0.0,
+                "CarrierID": 22,
+                "CoverageInsured": [
+                    {
+                        "InsuredPartyID": "S298091012",
+                        "PrimaryInsuredIndicator": true,
+                        "InsuredCoverageEffectiveDate": "2021-10-01"
+                    }
+                ],
+                "SignatureDate": "2021-08-12"
+            },
+            {
+                "CoverageID": 388939268,
+                "GroupPolicyNumber": "00023146",
+                "ProductTypeCode": "AD&D",
+                "BenefitPlanIdentifier": "AVM01-0001",
+                "BenefitClassIdentifier": "0008",
+                "BillGroupIdentifier": "0000",
+                "ClaimGroupIdentifier": "",
+                "OriginalCoverageEffectiveDate": "2021-10-01",
+                "CoverageEffectiveDate": "2021-10-01",
+                "CoverageTerminationDate": "",
+                "CoverageTierCode": "Employee",
+                "BenefitAmount": 400000.0,
+                "EmployeePremiumContributionAmount": 3.75,
+                "EmployerPremiumContributionAmount": 0.0,
+                "CarrierID": 22,
+                "CoverageInsured": [
+                    {
+                        "InsuredPartyID": "S298091012",
+                        "PrimaryInsuredIndicator": true,
+                        "InsuredCoverageEffectiveDate": "2021-10-01"
+                    }
+                ],
+                "SignatureDate": "2021-08-12"
+            },
+            {
+                "CoverageID": 388940292,
+                "GroupPolicyNumber": "00023146",
+                "ProductTypeCode": "STD",
+                "BenefitPlanIdentifier": "STD02-0001",
+                "BenefitClassIdentifier": "0008",
+                "BillGroupIdentifier": "0000",
+                "ClaimGroupIdentifier": "",
+                "OriginalCoverageEffectiveDate": "2021-10-01",
+                "CoverageEffectiveDate": "2021-10-01",
+                "CoverageTerminationDate": "",
+                "CoverageTierCode": "Employee",
+                "BenefitAmount": 2500.0,
+                "EmployeePremiumContributionAmount": 109.5,
+                "EmployerPremiumContributionAmount": 0.0,
+                "CarrierID": 22,
+                "CoverageInsured": [
+                    {
+                        "InsuredPartyID": "S298091012",
+                        "PrimaryInsuredIndicator": true,
+                        "InsuredCoverageEffectiveDate": "2021-10-01"
+                    }
+                ],
+                "SignatureDate": "2021-08-12"
+            },
+            {
+                "CoverageID": 388940804,
+                "GroupPolicyNumber": "00023146",
+                "ProductTypeCode": "LTD",
+                "BenefitPlanIdentifier": "VLT01A-0001",
+                "BenefitClassIdentifier": "0008",
+                "BillGroupIdentifier": "0000",
+                "ClaimGroupIdentifier": "",
+                "OriginalCoverageEffectiveDate": "2021-10-01",
+                "CoverageEffectiveDate": "2021-10-01",
+                "CoverageTerminationDate": "",
+                "CoverageTierCode": "Employee",
+                "BenefitAmount": 16666.67,
+                "EmployeePremiumContributionAmount": 18.33,
+                "EmployerPremiumContributionAmount": 0.0,
+                "CarrierID": 22,
+                "CoverageInsured": [
+                    {
+                        "InsuredPartyID": "S298091012",
+                        "PrimaryInsuredIndicator": true,
+                        "InsuredCoverageEffectiveDate": "2021-10-01"
+                    }
+                ],
+                "SignatureDate": "2021-08-12"
+            },
+            {
+                "CoverageID": 388941316,
+                "GroupPolicyNumber": "00023146",
+                "ProductTypeCode": "Accident",
+                "BenefitPlanIdentifier": "ACC01-0001",
+                "BenefitClassIdentifier": "0008",
+                "BillGroupIdentifier": "0000",
+                "ClaimGroupIdentifier": "",
+                "OriginalCoverageEffectiveDate": "2021-10-01",
+                "CoverageEffectiveDate": "2021-10-01",
+                "CoverageTerminationDate": "",
+                "CoverageTierCode": "Employee",
+                "BenefitAmount": 0.0,
+                "EmployeePremiumContributionAmount": 4.84,
+                "EmployerPremiumContributionAmount": 0.0,
+                "CarrierID": 22,
+                "CoverageInsured": [
+                    {
+                        "InsuredPartyID": "S298091012",
+                        "PrimaryInsuredIndicator": true,
+                        "InsuredCoverageEffectiveDate": "2021-10-01"
+                    }
+                ],
+                "SignatureDate": "2021-08-12"
+            },
+            {
+                "CoverageID": 388941828,
+                "GroupPolicyNumber": "00023146",
+                "ProductTypeCode": "Hospital",
+                "BenefitPlanIdentifier": "HIN01-0001",
+                "BenefitClassIdentifier": "0008",
+                "BillGroupIdentifier": "0000",
+                "ClaimGroupIdentifier": "",
+                "OriginalCoverageEffectiveDate": "2021-10-01",
+                "CoverageEffectiveDate": "2021-10-01",
+                "CoverageTerminationDate": "",
+                "CoverageTierCode": "Employee",
+                "BenefitAmount": 0.0,
+                "EmployeePremiumContributionAmount": 9.05,
+                "EmployerPremiumContributionAmount": 0.0,
+                "CarrierID": 22,
+                "CoverageInsured": [
+                    {
+                        "InsuredPartyID": "S298091012",
+                        "PrimaryInsuredIndicator": true,
+                        "InsuredCoverageEffectiveDate": "2021-10-01"
+                    }
+                ],
+                "SignatureDate": "2021-08-12"
+            },
+            {
+                "CoverageID": 388942340,
+                "GroupPolicyNumber": "00023146",
+                "ProductTypeCode": "CriticalIllness",
+                "BenefitPlanIdentifier": "CVM01-0001",
+                "BenefitClassIdentifier": "0008",
+                "BillGroupIdentifier": "0000",
+                "ClaimGroupIdentifier": "",
+                "OriginalCoverageEffectiveDate": "2021-10-01",
+                "CoverageEffectiveDate": "2021-10-01",
+                "CoverageTerminationDate": "",
+                "CoverageTierCode": "Employee",
+                "BenefitAmount": 10000.0,
+                "EmployeePremiumContributionAmount": 2.3,
+                "EmployerPremiumContributionAmount": 0.0,
+                "CarrierID": 22,
+                "CoverageInsured": [
+                    {
+                        "InsuredPartyID": "S298091012",
+                        "PrimaryInsuredIndicator": true,
+                        "InsuredCoverageEffectiveDate": "2021-10-01"
+                    }
+                ],
+                "SignatureDate": "2021-08-12"
+            }
+        ]
+    }
+]
