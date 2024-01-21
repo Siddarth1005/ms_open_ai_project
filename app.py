@@ -1,7 +1,9 @@
 from flask import Flask, request
 import json
+from flasgger import Swagger
 
 app = Flask(__name__)
+Swagger(app)
 
 @app.route('/')
 
@@ -9,8 +11,30 @@ def index():
     return "Hello World"
 
 class Main:
-    @app.route('/get-employee-details', methods = ['GET'])
+    @app.route('/get-employee-details', methods = ['POST'])
     def get_subscription_details():
+        """
+        Get employee details endpoint
+        ---
+        parameters:
+          - name: subscriber_id
+            in: query
+            type: string
+            required: true
+            description: Subscriber ID
+
+        responses:
+          200:
+            description: Successful response
+            schema:
+              type: object
+              properties:
+                status_code:
+                  type: integer
+                  format: int32
+                message:
+                  type: string
+        """
         # Fecthes the subscriber_id
         subscriber_id = request.args.get('subscriber_id')
         # With the subsciber ID make a call to backend to fetch the employee details
@@ -37,9 +61,42 @@ class Main:
         }
 
 
-    @app.route('/get-life-event-type')
+    @app.route('/get-life-event-type', methods=['POST'])
 
     def get_type_of_life_event():
+        """
+        Get type of life event endpoint
+        ---
+        consumes:
+          - string
+        parameters:
+          - in: body
+            name: life_event_type
+            type: string
+            required: true
+            description: Life event type
+        responses:
+          200:
+            description: Successful response
+            schema:
+              type: object
+              properties:
+                status_code:
+                  type: integer
+                  format: int32
+                life_event_type:
+                  type: string
+          400:
+            description: Invalid life event
+            schema:
+              type: object
+              properties:
+                status_code:
+                  type: integer
+                  format: int32
+                message:
+                  type: string
+        """
         # Need to use STT
         life_event_type  = request.data.decode("utf-8")
 
@@ -55,9 +112,57 @@ class Main:
             }
         
     
-    @app.route('/marriage')
+    @app.route('/marriage', methods=['POST'])
 
     def marriage_life_event():
+        """
+        Marriage life event endpoint
+        ---
+        parameters:
+          - name: user_id
+            in: query
+            type: integer
+            required: true
+            description: User ID
+          - name: question_id
+            in: query
+            type: integer
+            required: true
+            description: Completed question ID
+          - name: dependent_id
+            in: query
+            type: integer
+            description: Dependent ID
+
+        responses:
+          200:
+            description: Successful response
+            schema:
+              type: object
+              properties:
+                status_code:
+                  type: integer
+                  format: int32
+                question_name:
+                  type: string
+                question_number:
+                  type: integer
+          400:
+            description: Bad request
+            schema:
+              type: object
+              properties:
+                status_code:
+                  type: integer
+                  format: int32
+                message:
+                  type: string
+        """
+
+
+
+
+
         dictQuestions = {
             1 : "Congrats on your marriage, Can you please provide the event date",
             2:  "Can you provide your dependent name",
